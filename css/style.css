@@ -1,0 +1,410 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+nav{
+    height: 105px;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+}
+nav img{
+    margin-top: 25px;
+}
+.header-link a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+}
+.header-link{
+    height: 78%;
+    display: inline-block;
+    border-bottom: 5px transparent solid;
+    margin-right: 20px;
+    margin-top: 45px;
+    transition: 0.6s;
+}
+.header-link:hover{
+    border-bottom-color: #f6572c;
+}
+header{
+    height: 700px;
+    background: url('../images/header-bg_02.jpg')no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+nav .social{
+    margin-top: 40px;
+}
+nav .social a{
+    font-size: 20px;
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+nav .social a:hover{
+    color: #f6572c;
+}
+header h1{
+    margin-top: 100px;
+    font-size: 90px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 18px;
+    color: #fff;
+}
+button{
+    height: 55px;
+    width: 180px;
+    background: #f56131;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.6s;
+}
+button:hover{
+    background: #ff4000;
+}
+.ipad-app{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.hand{
+    width: 40%;
+}
+.hand img{
+    width: 100%;
+    height: 100%;
+}
+.app-dc{
+    width: 60%;
+    height: 100%;
+    background: #2f2339;
+    padding: 80px 120px 0 80px;
+}
+.app-dc h3,
+.makes h3,
+.watches h3{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.app-dc p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.app-dc .second{
+    color: #bfbfbf;
+    font-weight: 400;
+    margin-top: 0;
+}
+.app-dc button{
+    margin-top: 30px;
+}
+.awesome{
+    padding-top: 70px;
+    padding-left: 100px;
+    display: flex;
+}
+.makes h3{
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.makes button,
+.orange button{
+    background: #2f2339;
+}
+.makes button:hover,
+.orange button:hover{
+    background: #423250;
+}
+.makes{
+    margin-right: 40px;
+}
+.icon-bar{
+    width: 100%;
+    height: 300px;
+    background: #ee5d30;
+    padding-right: 100px;
+    padding-left: 80px;
+    
+
+}
+.icon h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 60px;
+}
+.icon-bar p{
+    margin-top: 80px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 600;
+}
+.ipad,
+.iphone{
+    width: 100%;
+    height: 600px;
+    margin-top: 210px;
+
+}
+.iphone-rigth{
+    float: right;
+    padding: 0 100px 0 200px;
+    width: 70%;
+    height: 100%;
+    background: #2f2339;
+    position: relative;
+}
+.ipad-left{
+    width: 70%;
+    height: 100%;
+    background: #2f2339;
+    padding: 0 200px 0 100px;
+    position: relative;
+}
+.ipad-left h3,
+.iphone-rigth h3{
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.ipad-left h5,
+.iphone-rigth h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.ipad-left p,
+.iphone-rigth p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+.iphone img{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    z-index: 40;
+    top: 55px;
+    left: -100px;
+}
+.iphone-rigth h5{
+    margin-top: 30px;
+}
+.ipad-left img{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    z-index: 30;
+    top: 100px;
+    right: -150px;
+}
+.watches{
+    margin: 150px 0;
+    height: 300px;
+    width: 100%;
+    background: #ee5d30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+}
+.watches img{
+    height: 400px;
+    width: 240px;
+    margin-left: 20px;
+
+}
+.blog{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.humans{
+    width: 50%;
+    height: 100%;
+}
+.orange{
+    width: 50%;
+    height: 100%;
+    background: #ee5d30;
+    padding: 100px 0 0 70px;
+}
+.orange h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.orange h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.orange p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400
+}
+.humans{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.humans img{
+    width: 225px;
+    height: 125px;
+}
+.humans h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.humans{
+    font-size: 15px
+}
+.visit{
+    background: url('../images/footer-bg_02.jpg') no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.visit h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.visit h2{
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.visit p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.sircle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: #ee5d30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+footer{
+    height: 525px;
+    width: 100%;
+    
+}
+.location-tx{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #151515;
+    margin-top: 50px;
+}
+.location h5{
+    font-size: 20px;
+    color: #141414;
+    font-weight: 700;
+}
+.location p{
+    color: #585858;
+    font-size: 15px;
+}
+.input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input p{
+    margin-right: 20px;
+    font-size: 17px;
+    color: #585858;
+}
+.input input{
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #cacaca;
+    outline: none;
+    
+}
+.input textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: 5px solid #cacaca;
+    outline: none;
+    resize: none;
+    margin-bottom: 40px;
+}
+.copyright{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #2f2339;
+}
+.copyright h5{
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+.copyright h4{
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
